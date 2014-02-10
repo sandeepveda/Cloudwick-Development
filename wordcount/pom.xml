@@ -33,6 +33,12 @@
 			<scope>system</scope>
 			<systemPath>${JAVA_HOME}/lib/tools.jar</systemPath>
 		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.pig</groupId>
+			<artifactId>pig</artifactId>
+			<version>0.11.0-cdh4.5.0</version>
+		</dependency>
 
 	</dependencies>
 </project>
